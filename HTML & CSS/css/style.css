@@ -1,0 +1,121 @@
+body {
+		margin: 0;
+top: -1px;
+}
+.new{
+	height: 100%;
+	width: 100%;
+}
+header{
+		background: url(../image/pic155.jpg) no-repeat;
+
+	position: fixed;
+	width: 100%;
+}
+.pic{
+	margin-bottom: auto;
+}
+.hed{
+	padding-left: 200px;
+	background: lightblue;
+}
+.col{
+	font-size: 120%;
+	color: #EB984E;
+}
+.radio{
+	font-size: 165%;
+}
+.img_background{
+	margin top: 400px;
+	height: 300px;
+	width: auto;
+	background-color: black;
+}
+.Logo {
+background: black;
+	background: url(../image/pic1.jpg) no-repeat;
+	margin: auto;
+	height: 300px;
+	width: 900px;
+}
+.series{
+	margin-bottom: 0px;
+}
+.fon{
+	font-size: 140%;
+}
+.lists{
+	padding-left: 800px;
+}
+.list{
+	
+font-size: 145%;
+	display: inline;
+
+}
+body{
+		background: url(../image/pic155.jpg) no-repeat;
+	
+
+}
+
+.line{
+	float: right;
+}
+}
+.space2{
+	margin: 300px;
+	padding right: 150px;
+}
+.font{
+	color: #AF601A;
+	font-size: 250%;
+	font-family: cursive;
+	text-shadow: 2px 2px 5px black;
+}
+.para{
+	font-size: 150%;
+}
+article img{
+
+ float: left;
+ margin-right: 15px;
+ width: 3px;
+
+}
+
+.colour{
+	background: lightgrey;
+}
+.Continue {
+	color: #27AE60;
+	font-size: 140%;
+	color: black;
+	float: right;
+}
+.tag{
+	font-size: 130%;
+}
+
+.page_link{
+	margin: 0px;
+		background: lightgrey;
+
+}
+
+.page_link h4{
+	background: lightgrey;
+	margin: auto;
+}
+.page_link h5{
+	background: lightgrey;
+	margin: 0px;
+}
+footer{
+	background: #FDEDEC;
+}
+.match{
+	margin-bottom: 0px;
+	font-size: 135%;
+}
