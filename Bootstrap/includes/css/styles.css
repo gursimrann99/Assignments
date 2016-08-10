@@ -1,0 +1,162 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   --
+   ------------------------------------ */
+   #bigCallout{
+    margin-top: 25px;
+   }
+   #search
+   {
+      width: 280px;
+
+   }
+   #id{
+      padding-top: 10px;
+      margin-left: 9px;
+   }
+ 
+   
+
+   }
+   #bar{
+  padding-top: 40px;
+      font-size: 115%;
+   }
+#home{
+padding-left: -5px;
+padding-right: 15px;
+}
+#caret{
+  margin-top: 10px;
+}
+
+}
+   #list{
+      display: inline;
+   }
+
+.hi{
+  color: #3498DB;
+  font-size: 250%;
+  font-family: cursive;
+  text-shadow: 2px 2px 5px black;
+  padding-right: 30px;
+  margin-top: 14px;
+}   
+.head{
+   margin-top: 10px;
+}
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+   margin-top:80px;
+
+}
+.font{
+   color: black;
+}
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#features{
+   text-align: center;
+}
+#features img{
+  margin: 0 0 20px;
+}
+#button{
+  width: 200px;
+}
+#button1{
+  width: 200px;
+}
+#button2{
+  width: 200px;
+}
+#button3{
+  width: 200px;
+}
+body{
+background: url(../../images/back.jpg) no-repeat;
+}
+#men{
+}
+.foot{
+  background: #FEF9E7;
+}
+.thumbnail .price{
+  font-size: 22px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	.carousel-caption{
+    font-size: 19px;
+  }
+  .carousel-caption h1{
+
+    font-size: 10px;
+  }
+  .carousel-caption h2{
+
+    font-size: 10px;
+  }
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  .carousel-caption{
+    font-size: 16px;
+  }
+  .carousel-caption h1{
+
+    font-size: 15px;
+  }
+  .carousel-caption h2{
+
+    font-size: 15px;
+  }
+
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+
+}
