@@ -1,0 +1,64 @@
+
+
+#tie{
+	width: 700px;
+}
+body{
+	background-color: #FBEEE6;
+}
+#tab{
+	border: 2;
+}
+.he{
+	text-align: center;
+}
+#body{
+margin-top:80px;
+
+}
+#smovie{
+	width: 100%;
+}
+.spa{
+	text-align: center;
+}
+#itsid{
+	text-align: center;
+	
+}
+@media (max-width: 1200px){
+	.he{
+		font-size: 40px;
+		text-align: center;
+
+	}
+	#smovie{
+		width: 100%;
+	}
+	#tie{
+		width: 600px;
+	}
+}
+@media (max-width: 768px) {
+	.he{
+		font-size: 35px;
+		text-align: center;
+	}
+	#tie{
+		width: 350px;
+	}
+}
+@media (max-width: 480px) {
+	.he{
+		font-size: 25px;
+		text-align: center;
+	}
+	#tie{
+		width: 200px;
+	}
+}
+@media (max-width: 226px){
+	#tie{
+		width: 100px;
+	}
+}
