@@ -1,0 +1,176 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>2nd jQuery</title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+
+		<link href="css/style.css" rel="stylesheet">
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		<script src="includes/js/script.js"></script>
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="navbar navbar-default navbar-fixed-top">
+
+			<span><h1 class="head">Employee  Records</h1></span>
+
+		<div class="row" id="row1">
+			<div class="col-sm-12">
+				<h4>Employee ID: <input type="text" id="tex" placeholder="Search to perform delete or edit">
+				<button class="btn btn-success" id="find">Search</button></h4>
+			</div>
+		</div>
+
+		</div>
+	</div>
+
+	<div class="container" id="bodyy">
+	
+		<button class="btn btn-primary" id="Addb" data-target="#myModal" data-toggle="modal">Add</a></button>
+			<button class="btn btn-primary" id="show">Show All</button>
+
+		<table class="table-responsive" id="tab1" width="100%" border="2">
+		  		<thead>
+		  			<tr>
+			  	
+			   			<th id="one">Id</th>
+			   			<th id="two">Age</th> 
+			   			<th id="three">Name</th>
+			    		<th id="four">Gender</th>
+			    		<th id="five">Email</th>
+			    		<th>Update</th>
+			    		<th>Delete</th>
+			   		</tr>
+			   		<tbody id="tab">
+			   			
+			   		</tbody >
+			   		</thead>		
+			</table>
+
+	</div>	
+	<div class="container" id="mod">
+       <div class="modal fade" id="myModal">
+            <div  class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" id="modhead">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title" id="submission">Records Entry</h3>
+                    </div><!--end of modal header-->
+                	<div class="modal-body" id="modbody">                                 
+		                 <form class="form-horizontal"> 
+		                    <div class="form-group">
+		                    <label class="col-lg-2 control-label" for="inputAge">Age</label>
+		                        <div class="col-lg-10">
+		                            <input class="form-control" id="inputAge" placeholder="Age" type="number">
+		                        </div>
+		                    </div>
+		                    <div class="form-group">
+		                     <label class="col-lg-2 control-label" for="inputName">Name</label>
+			                    <div class="col-lg-10">
+			                        <input class="form-control" id="inputName" placeholder="Name" type="text">
+			                    </div>
+		                    </div>
+		                    <div class="form-group">
+		                      <label class="col-lg-2 control-label" for="inputGender">Gender</label>
+			                    <div class="col-lg-10">
+			                       <select id="inputGender">
+			                       	<option>Male</option>
+			                       	<option>Female</option>
+			                       </select>
+			                    </div> 
+
+		                    </div>
+		                    <div class="form-group">
+		                     <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+			                    <div class="col-lg-10">
+			                        <input class="form-control" id="inputEmail" placeholder="email" type="email">
+			                    </div>
+		                    </div>
+ 		                    </form>
+					</div><!--end of modal body-->
+					 <div class="modal-footer" id="center">
+			                     <button class="btn btn-success"  type="submit "data-dismiss="modal" id="submi">Submit</button>
+
+                             <button class="btn btn-default"  data-dismiss="modal" >Cancel</button>
+
+					</div> 	<!--end of modal footer-->                                                 
+	            </div><!--end of modal content-->  
+	        </div><!--end of modal dailog-->
+        </div><!--end modal fade-->   
+    </div><!--end myModal-->
+
+
+    <div class="container" id="mod2">
+       <div class="modal fade" id="myModal2">
+            <div  class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" id="modhead">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="modal-title" id="submission">Update Records </h3>
+                    </div><!--end of modal header-->
+                	<div class="modal-body" id="modbody">                                 
+		                 <form class="form-horizontal"> 
+		                    <div class="form-group">
+		                    <label class="col-lg-2 control-label" for="inputAge">Age</label>
+		                        <div class="col-lg-10">
+		                            <input class="form-control" id="inputA" placeholder="Age" type="text">
+		                        </div>
+		                    </div>
+		                    <div class="form-group">
+		                     <label class="col-lg-2 control-label" for="inputName">Name</label>
+			                    <div class="col-lg-10">
+			                        <input class="form-control" id="inputN" placeholder="Name" type="text">
+			                    </div>
+		                    </div>
+		                   <div class="form-group">
+		                      <label class="col-lg-2 control-label" for="inputGender">Gender</label>
+			                    <div class="col-lg-10">
+			                       <select id="inputGender">
+			                       	<option>Male</option>
+			                       	<option>Female</option>
+			                       </select>
+			                    </div> 
+
+		                    </div>
+		                    <div class="form-group">
+		                     <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+			                    <div class="col-lg-10">
+			                        <input class="form-control" id="inputE" placeholder="email" type="email">
+			                    </div>
+		                    </div>
+ 		                    </form>
+					</div><!--end of modal body-->
+					<div class="modal-footer" id="center">
+			                    <button class="btn btn-success" id="save" type="submit" data-dismiss="modal" >Save</button>
+			                    <button class="btn btn-default" data-dismiss="modal" >Cancel</button>
+					</div>	<!--end of modal footer-->                                                 
+	            </div><!--end of modal content-->  
+	        </div><!--end of modal dailog-->
+        </div><!--end modal fade-->   
+    </div><!--end myModal-->
+
+
+<div id="postswrapper">
+   <div class="item"></div>
+   
+   <div id="loadmoreajaxloader" style="display:none;"></div>
+</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/main.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+</body>
+</html>

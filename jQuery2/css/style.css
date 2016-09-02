@@ -1,0 +1,202 @@
+#bodyy{
+	margin-top: 64px;
+	margin-bottom: 26px;
+}
+.newspan{
+	text-align: center;
+}
+#center{
+	text-align: center;
+
+}
+/*#del{
+	position: absolute;
+}
+#update{
+	position: absolute;
+}*/
+/*#submi{
+	position: absolute;
+}
+#save{
+	position: absolute;
+}*/
+#modbody{
+	background-color: #EBDEF0
+}
+#modhead{
+	color: #7D3C98;
+}
+#mod{
+	display: center;
+}
+/*#bodyyy{
+	margin-top: 640px;
+}*/
+/*#l2{
+	padding-left: 380px;
+	padding-right: 380px;
+}*/
+#tab1{
+	font-size: 17px;
+    border-color: #8E44AD;
+    border-style: solid;
+    margin-top: 10px;
+
+}
+#Addb{
+	margin-top: 65px;
+		border-radius: 50%;
+
+}
+#show{
+	margin-top: 65px;
+		border-radius: 50%;
+
+}
+
+
+
+
+#tab
+{
+	text-align: center;
+}
+#tabt{
+
+	text-align: center;
+    border-color: #8E44AD;
+    border-style: solid;
+
+}
+#row1{
+	display: center;
+	text-align: center;
+	    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.head{
+    color: #6C3483;
+	text-align: center;
+	font-family: Fantasy;
+}
+body{
+	background-color: #EBDEF0;
+}
+
+.list{
+	display: inline;
+	width: 100%;
+}
+#tex{
+		width: 300px;
+	}
+
+@media (max-width: 1199px){
+	/*#l2{
+	padding-left: 215px;
+	padding-right: 215px;
+	}*/
+	.head{
+		font-size: 40px;
+		text-align: center;
+
+	}
+	#bodyy{
+	margin-top: 74px;
+}
+
+	/*#smovie{
+		width: 100%;
+	}*/
+	}
+
+@media (max-width: 768px) {
+	#bodyy{
+	margin-top: 67px;
+}
+/*	#l2{
+	padding-left: 90px;
+	padding-right: 90px;
+}
+*/	.head{
+		font-size: 35px;
+		text-align: center;
+	}
+
+}
+@media (max-width: 575px){
+#tab th,td{
+		font-size: 15px;
+	}
+
+#tab1 th,th{
+		font-size: 15px;
+	}
+}
+@media (max-width: 509px){
+#tab th,td{
+		font-size: 12px;
+	}
+
+#tab1 th,th{
+		font-size: 12px;
+	}
+	#tex{
+		width: 200px;
+	}
+
+}
+@media (max-width: 483px) {
+
+	
+#bodyy{
+	margin-top: 55px;
+}
+
+/*	#l2{
+	padding-left: 0px;
+	padding-right: 0px;
+}*/
+	.head{
+		font-size: 25px;
+		text-align: center;
+	}
+}
+@media (max-width: 448px){
+#tab th,td{
+		font-size: 11px;
+	}
+	#tab1 th,th{
+		font-size: 11px;
+	}
+}
+@media (max-width: 410px){
+	#tex{
+		width: 66px;
+	}
+}
+@media (max-width: 400px){
+#tab th,td{
+		font-size: 10px;
+	}
+	#tab1 th,th{
+		font-size: 10px;
+	}
+	
+
+}
+@media (max-width: 382px){
+#tab th,td{
+		font-size: 9px;
+	}
+	#tab1 th,th{
+		font-size: 9px;
+	}
+}
+@media (max-width: 360px){
+/*	#l2{
+	padding-left: 26px;
+	padding-right: 26px;
+}*/
+}
